@@ -8,20 +8,14 @@ Usage
 --
 Setup:
 
-1. Create a directory 
-
-2. run myfuse.py to mount the directory created in Step 1
-
+Create a directory 
+run myfuse.py to mount the directory created in Step 1
 $./myfuse.py -f ./<dirpath>
 
 Run:
-
 Open another terminal and issue seFS supported commands like ls, ll, touch
-
 $touch abc
-
 $ll
-
 $cat >> abc
 
 
