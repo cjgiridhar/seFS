@@ -39,4 +39,3 @@ License
 GNU General Public License v3.0
 
 Copyright Chetan Giridhar, Vishal Kanaujia
->>>>>>> 19b3e22b8bc303d653cb8cf5f125d7ff5d49e496
