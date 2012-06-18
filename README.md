@@ -23,6 +23,14 @@ Teardown
    $fusermount -u ./dirpath
 </pre>
 
+
+Dependencies
+--
+- Ubuntu 11.04
+- SQLite Database
+- python-Fuse bindings
+- Python 2.6
+
 Limitation
 --
 
