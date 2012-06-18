@@ -1,0 +1,39 @@
+#############################################################################
+# seFS_Schema.py - Database Schema of seFS Database.
+#
+# seFS                            Version 1.0
+# Copyright 2012 
+# Chetan Giridhar cjgiridhar@gmail.com
+# Vishal Kanaujia vishalkanaujia@gmail.com
+# Created: 04/03/2012             Last Modified: 06/03/2012
+#
+# This file is part of seFS.
+#
+# seFS is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v3 as published by
+# the Free Software Foundation; 
+#
+# seFS is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#                                                                             
+#############################################################################
+
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE fileinfo (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "sha" TEXT,
+    "data" BLOB,
+    "length" INTEGER,
+    "compressed" BLOB
+);
+CREATE TABLE file (
+    "id" INTEGER,
+    "abspath" TEXT,
+    "length" INTEGER,
+    "mtime" TEXT,
+    "ctime" TEXT,
+    "atime" TEXT,
+    "inode" INTEGER
+);
