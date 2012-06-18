@@ -1,19 +1,17 @@
-################################################
-seFS - Storage Efficient File System based on Python-fuse bindings
-------------------------------------
 
+seFS - Storage Efficient File System based on Python-fuse bindings
+--
+
+seFS is a Python-FUSE based storage efficient file system that abstracts SQLite Database as a file system and provides storage efficiency with 
+Data deduplication and compression. This is a prototype implementation and can be furthered scaled.
 A project by:
 
 
-Chetan Giridhar cjgiridhar@gmail.com
 
-Vishal Kanaujia vishalkanaujia@gmail.com
 
 Date Created: 6 June 2012
 
-License: GNU General Public License
 
-################################################
 
 Setup:
 
@@ -32,3 +30,14 @@ Teardown:
 
 You will need to unmount the directory using fuermount utility
 $fusermount -u ./<dirpath>
+
+Contact
+--
+Chetan Giridhar cjgiridhar@gmail.com
+
+Vishal Kanaujia vishalkanaujia@gmail.com
+
+License
+--
+GNU General Public License
+Copyright
