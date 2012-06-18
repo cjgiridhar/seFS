@@ -1,10 +1,9 @@
 ################################################
-seFS - Storage Efficient File System
--------------------------------------
-based on Python-fuse bindings
-------------------------------
+seFS - Storage Efficient File System based on Python-fuse bindings
+------------------------------------
+
 A project by:
---------------
+
 
 Chetan Giridhar cjgiridhar@gmail.com
 
