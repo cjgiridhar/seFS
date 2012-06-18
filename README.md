@@ -6,24 +6,29 @@ Data deduplication and compression. seFS was developed on Ubuntu 11.04
 
 Usage
 --
-Setup:
 
-Create a directory 
-run myfuse.py to mount the directory created in Step 1
-$./myfuse.py -f ./<dirpath>
+Setup:
+Create a directory
+
+run myfuse.py to mount the directory created
+
+$./myfuse.py -f ./dirpath
 
 Run:
-Open another terminal and issue seFS supported commands like ls, ll, touch
-$touch abc
-$ll
-$cat >> abc
 
+Open another terminal and issue seFS file system commands
+
+$touch abc
+
+$ll
+
+$cat >> abc
 
 Teardown:
 
 You will need to unmount the directory using fuermount utility
 
-$fusermount -u ./<dirpath>
+$fusermount -u ./dirpath
 
 Limitation
 --
