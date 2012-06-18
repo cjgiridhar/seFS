@@ -38,8 +38,8 @@ This is a prototype file system implementation and can be furthered scaled.
 
 Contact
 --
-Chetan Giridhar cjgiridhar@gmail.com
-Vishal Kanaujia vishalkanaujia@gmail.com
+- Chetan Giridhar cjgiridhar@gmail.com
+- Vishal Kanaujia vishalkanaujia@gmail.com
 
 License
 --
