@@ -4,6 +4,13 @@ seFS - Storage Efficient File System based on Python-fuse bindings
 seFS is a Python-FUSE based storage efficient file system that abstracts SQLite Database as a file system and provides storage efficiency with 
 Data deduplication and compression. seFS was developed on Ubuntu 11.04
 
+Features
+--
+Storage efficiency:
+- Data de-duplication
+- Compression
+
+
 Usage
 --
 <pre>
